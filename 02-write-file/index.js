@@ -23,7 +23,6 @@ function promptInput() {
     }
 
     fs.appendFile(filePath, input + "\n", (err) => {
-      // append input to file
       if (err) throw err;
       console.log("Your text successfully added!");
       promptInput();
