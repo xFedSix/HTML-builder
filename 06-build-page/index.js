@@ -153,7 +153,7 @@ const copyAssets = (callback) => {
 
 createProjectDist((err) => {
   if (err) {
-    console(err);
+    console.log(err);
     return;
   }
   replaceTags((err) => {
